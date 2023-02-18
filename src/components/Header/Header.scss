@@ -1,0 +1,42 @@
+@import "../../global.scss";
+
+.head {
+  background-color: $blue-bg;
+  &__container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 32px 150px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 28px;
+
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: $text-primary;
+  }
+  &__menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    &__item {
+      cursor: pointer;
+      padding: 10px 20px;
+
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 28px;
+
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+
+      color: $text-primary;
+    }
+  }
+}

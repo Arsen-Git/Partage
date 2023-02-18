@@ -1,0 +1,59 @@
+@import "../../global.scss";
+
+.hero {
+  position: relative;
+  background-color: $blue-bg;
+  &__container {
+    max-width: 1320px;
+    padding-left: 150px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    /* or 122% */
+
+    /* Tertiary/main */
+
+    color: $tertiary;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  &__left {
+    width: 557px;
+  }
+  &__subtitle {
+    margin-top: 16px;
+    margin-bottom: 32px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    /* Light/Text/Secondary */
+
+    color: $text-secondary;
+  }
+  &__laptop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 787px;
+    height: 577px;
+    img {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  &__hand {
+    position: absolute;
+    right: 0;
+    bottom: -87px;
+  }
+}

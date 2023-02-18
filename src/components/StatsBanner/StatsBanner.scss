@@ -1,0 +1,75 @@
+@import "../../global.scss";
+
+.statistics {
+  background-color: $gray-bg;
+  padding: 0 150px 70px;
+  &__content {
+    padding: 24px 24px 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+
+    box-sizing: border-box;
+
+    max-width: 1320px;
+    margin: 0 auto;
+
+    background: #120e5c;
+    /* shadow-1/glow high */
+
+    box-shadow: 4px 8px 32px rgba(0, 0, 0, 0.16);
+    border-radius: 16px;
+  }
+  &__info {
+    padding: 48px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+
+    /* Accent/light */
+
+    color: #dff7fe;
+  }
+  &__subtitle {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: rgba(255, 255, 255, 0.72);
+  }
+  &__plates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 511px;
+  }
+  &__plate {
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    &__count {
+      margin-bottom: 8px;
+      font-weight: 500;
+      font-size: 64px;
+      line-height: 72px;
+      /* identical to box height, or 112% */
+
+      color: #00cbfe;
+    }
+    &__text {
+      width: 199px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+
+      color: rgba(255, 255, 255, 0.72);
+    }
+  }
+}
