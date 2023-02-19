@@ -24,7 +24,7 @@ export default function StatsBanner() {
       <div className="statistics__content">
         <div className="statistics__info">
           <h2 className="statistics__title">
-            Shared NFT utilities <br /> is the future of web3
+            Shared NFT utilities is the future of web3
           </h2>
           <p className="statistics__subtitle">
             Get the most out of fractionalization

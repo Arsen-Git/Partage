@@ -26,6 +26,15 @@ $tertiary: #1e1983;
   /* Dark/Text/Primary */
 
   color: #ffffff;
+  transition: transform 0.1s linear;
+  &:hover {
+    transform: scale(1.1);
+  }
+  &-mobile {
+    @media screen and (max-width: 385px) {
+      padding: 10px 5px;
+    }
+  }
 }
 .btn-transparent {
   cursor: pointer;
@@ -45,4 +54,8 @@ $tertiary: #1e1983;
 
   color: #0049fc;
   background-color: white;
+  transition: transform 0.1s linear;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
