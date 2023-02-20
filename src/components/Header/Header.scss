@@ -34,6 +34,10 @@
     text-transform: capitalize;
 
     color: $text-primary;
+
+    animation-name: floatingLogo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
   }
   &__menu {
     display: flex;
@@ -151,5 +155,16 @@
   }
   &:last-child {
     transform: translateY(-7px) rotate(-45deg);
+  }
+}
+@keyframes floatingLogo {
+  0% {
+    transform: translate3d(0, -10%, 0);
+  }
+  50% {
+    transform: translate3d(0, 10%, 0);
+  }
+  100% {
+    transform: translate3d(0, -10%, 0);
   }
 }
