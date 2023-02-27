@@ -22,7 +22,9 @@ const ViewEven = ({ props }) => {
         <h2 className="card__title">{props.title}</h2>
         <p className="card__subtitle">{props.subtitle}</p>
         <p className="card__text">{props.text}</p>
-        <button className="btn-transparent">{props.btnText}</button>
+        <a href={props.link}>
+          <button className="btn-transparent">{props.btnText}</button>
+        </a>
       </div>
     </div>
   );
@@ -34,7 +36,9 @@ const ViewOdd = ({ props }) => {
         <h2 className="card__title">{props.title}</h2>
         <p className="card__subtitle">{props.subtitle}</p>
         <p className="card__text">{props.text}</p>
-        <button className="btn-transparent">{props.btnText}</button>
+        <a href={props.link}>
+          <button className="btn-transparent">{props.btnText}</button>
+        </a>
       </div>
       <figure className="card__img">
         <img src={props.img} alt="avatar" />

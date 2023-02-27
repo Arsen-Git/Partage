@@ -23,8 +23,12 @@ export default function Header() {
           <li className="head__menu__item">Create</li>
           <li className="head__menu__item">Sell</li>
           <li className="head__menu__item">Buy</li>
-          <li className="head__menu__item">Whitepaper</li>
-          <button className="btn-fill">Contact Us</button>
+          <a href="https://juliencarbonnell.medium.com/">
+            <li className="head__menu__item">Blog</li>
+          </a>
+          <a href="https://t.me/partagebtc">
+            <button className="btn-fill">Contact Us</button>
+          </a>
         </menu>
         <div onClick={onToggleMenu} className="head__burger">
           <div className="head__burger__line"></div>
@@ -35,8 +39,12 @@ export default function Header() {
           <li className="head__burger__item">Create</li>
           <li className="head__burger__item">Sell</li>
           <li className="head__burger__item">Buy</li>
-          <li className="head__burger__item">Whitepaper</li>
-          <button className="btn-fill btn-fill-mobile">Contact Us</button>
+          <a href="https://juliencarbonnell.medium.com/">
+            <li className="head__burger__item">Blog</li>
+          </a>
+          <a href="https://t.me/partagebtc">
+            <button className="btn-fill btn-fill-mobile">Contact Us</button>
+          </a>
         </menu>
       </div>
     </header>

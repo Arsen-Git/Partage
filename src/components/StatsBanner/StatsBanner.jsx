@@ -29,7 +29,9 @@ export default function StatsBanner() {
           <p className="statistics__subtitle">
             Get the most out of fractionalization
           </p>
-          <button className="btn-transparent">Learn more</button>
+          <a href="https://t.me/partagebtc">
+            <button className="btn-transparent">Learn more</button>
+          </a>
         </div>
         <div className="statistics__plates">
           {plates.map((plate, index) => (
